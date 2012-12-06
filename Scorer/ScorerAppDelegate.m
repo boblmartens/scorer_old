@@ -7,6 +7,7 @@
 //
 
 #import "ScorerAppDelegate.h"
+#import "LaunchViewController.h"
 
 @implementation ScorerAppDelegate
 
@@ -14,6 +15,10 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    
+    LaunchViewController *lvc = [[LaunchViewController alloc] init];
+    [[self window] setRootViewController:lvc];
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;

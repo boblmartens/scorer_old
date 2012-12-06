@@ -16,6 +16,8 @@
 		C4EB18B3167068DC008614EE /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C4EB18B2167068DC008614EE /* Default.png */; };
 		C4EB18B5167068DC008614EE /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4EB18B4167068DC008614EE /* Default@2x.png */; };
 		C4EB18B7167068DC008614EE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4EB18B6167068DC008614EE /* Default-568h@2x.png */; };
+		C4EB18C016706995008614EE /* LaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4EB18BE16706995008614EE /* LaunchViewController.m */; };
+		C4EB18C116706995008614EE /* LaunchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4EB18BF16706995008614EE /* LaunchViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,9 @@
 		C4EB18B2167068DC008614EE /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		C4EB18B4167068DC008614EE /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		C4EB18B6167068DC008614EE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C4EB18BD16706995008614EE /* LaunchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchViewController.h; sourceTree = "<group>"; };
+		C4EB18BE16706995008614EE /* LaunchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaunchViewController.m; sourceTree = "<group>"; };
+		C4EB18BF16706995008614EE /* LaunchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,9 +83,12 @@
 		C4EB18A6167068DC008614EE /* Scorer */ = {
 			isa = PBXGroup;
 			children = (
+				C4EB18A7167068DC008614EE /* Supporting Files */,
 				C4EB18AF167068DC008614EE /* ScorerAppDelegate.h */,
 				C4EB18B0167068DC008614EE /* ScorerAppDelegate.m */,
-				C4EB18A7167068DC008614EE /* Supporting Files */,
+				C4EB18BD16706995008614EE /* LaunchViewController.h */,
+				C4EB18BE16706995008614EE /* LaunchViewController.m */,
+				C4EB18BF16706995008614EE /* LaunchViewController.xib */,
 			);
 			path = Scorer;
 			sourceTree = "<group>";
@@ -155,6 +163,7 @@
 				C4EB18B3167068DC008614EE /* Default.png in Resources */,
 				C4EB18B5167068DC008614EE /* Default@2x.png in Resources */,
 				C4EB18B7167068DC008614EE /* Default-568h@2x.png in Resources */,
+				C4EB18C116706995008614EE /* LaunchViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +176,7 @@
 			files = (
 				C4EB18AD167068DC008614EE /* main.m in Sources */,
 				C4EB18B1167068DC008614EE /* ScorerAppDelegate.m in Sources */,
+				C4EB18C016706995008614EE /* LaunchViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
