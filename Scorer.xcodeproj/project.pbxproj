@@ -18,6 +18,7 @@
 		C4EB18B7167068DC008614EE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4EB18B6167068DC008614EE /* Default-568h@2x.png */; };
 		C4EB18C016706995008614EE /* LaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4EB18BE16706995008614EE /* LaunchViewController.m */; };
 		C4EB18C116706995008614EE /* LaunchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4EB18BF16706995008614EE /* LaunchViewController.xib */; };
+		C4EB18C416706E59008614EE /* ScorerGame.m in Sources */ = {isa = PBXBuildFile; fileRef = C4EB18C316706E59008614EE /* ScorerGame.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		C4EB18BD16706995008614EE /* LaunchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchViewController.h; sourceTree = "<group>"; };
 		C4EB18BE16706995008614EE /* LaunchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaunchViewController.m; sourceTree = "<group>"; };
 		C4EB18BF16706995008614EE /* LaunchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchViewController.xib; sourceTree = "<group>"; };
+		C4EB18C216706E59008614EE /* ScorerGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScorerGame.h; sourceTree = "<group>"; };
+		C4EB18C316706E59008614EE /* ScorerGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScorerGame.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +90,8 @@
 				C4EB18AF167068DC008614EE /* ScorerAppDelegate.h */,
 				C4EB18B0167068DC008614EE /* ScorerAppDelegate.m */,
 				C4EB18BD16706995008614EE /* LaunchViewController.h */,
+				C4EB18C216706E59008614EE /* ScorerGame.h */,
+				C4EB18C316706E59008614EE /* ScorerGame.m */,
 				C4EB18BE16706995008614EE /* LaunchViewController.m */,
 				C4EB18BF16706995008614EE /* LaunchViewController.xib */,
 			);
@@ -177,6 +182,7 @@
 				C4EB18AD167068DC008614EE /* main.m in Sources */,
 				C4EB18B1167068DC008614EE /* ScorerAppDelegate.m in Sources */,
 				C4EB18C016706995008614EE /* LaunchViewController.m in Sources */,
+				C4EB18C416706E59008614EE /* ScorerGame.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
