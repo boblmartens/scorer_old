@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C450743C1671B6F20024CC37 /* ScorerHand.m in Sources */ = {isa = PBXBuildFile; fileRef = C450743B1671B6F20024CC37 /* ScorerHand.m */; };
 		C4EB18A1167068DC008614EE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4EB18A0167068DC008614EE /* UIKit.framework */; };
 		C4EB18A3167068DC008614EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4EB18A2167068DC008614EE /* Foundation.framework */; };
 		C4EB18A5167068DC008614EE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4EB18A4167068DC008614EE /* CoreGraphics.framework */; };
@@ -22,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C450743A1671B6F20024CC37 /* ScorerHand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScorerHand.h; sourceTree = "<group>"; };
+		C450743B1671B6F20024CC37 /* ScorerHand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScorerHand.m; sourceTree = "<group>"; };
 		C4EB189C167068DC008614EE /* Scorer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scorer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4EB18A0167068DC008614EE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C4EB18A2167068DC008614EE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -92,6 +95,8 @@
 				C4EB18BD16706995008614EE /* LaunchViewController.h */,
 				C4EB18C216706E59008614EE /* ScorerGame.h */,
 				C4EB18C316706E59008614EE /* ScorerGame.m */,
+				C450743A1671B6F20024CC37 /* ScorerHand.h */,
+				C450743B1671B6F20024CC37 /* ScorerHand.m */,
 				C4EB18BE16706995008614EE /* LaunchViewController.m */,
 				C4EB18BF16706995008614EE /* LaunchViewController.xib */,
 			);
@@ -183,6 +188,7 @@
 				C4EB18B1167068DC008614EE /* ScorerAppDelegate.m in Sources */,
 				C4EB18C016706995008614EE /* LaunchViewController.m in Sources */,
 				C4EB18C416706E59008614EE /* ScorerGame.m in Sources */,
+				C450743C1671B6F20024CC37 /* ScorerHand.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +299,7 @@
 				C4EB18BC167068DC008614EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
