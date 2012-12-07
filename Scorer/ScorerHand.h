@@ -10,9 +10,15 @@
 
 @interface ScorerHand : NSObject
 
-@property (nonatomic, strong) NSString *winningBidder;
-@property (nonatomic) int *numberOfBid;
+@property (nonatomic) BOOL bidWon;
+@property (nonatomic) int numberOfBid;
 @property (nonatomic, strong) NSString *suitOfBid;
-@property (nonatomic) int *tricksWon;
+@property (nonatomic) int tricksWon;
+
+- (int)usScore;
+- (int)themScore;
+
+- (int)scoreBidWon;
+- (int)scoreBidLost;
 
 @end
