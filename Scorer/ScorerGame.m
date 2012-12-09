@@ -10,4 +10,42 @@
 
 @implementation ScorerGame
 
+@synthesize gameHands;
+@synthesize currentHand;
+
+- (void)createNewHand
+{
+    [self setCurrentHand:[[ScorerHand alloc] init]];
+}
+
+- (void)setBidWinner
+{
+    
+}
+
+- (void)setBidNumber
+{
+    
+}
+
+- (void)setBidSuit
+{
+    
+}
+
+- (void)setTricksWon;
+{
+    
+}
+
+- (int)usScore
+{
+    
+}
+
+- (int)themScore
+{
+    
+}
+
 @end

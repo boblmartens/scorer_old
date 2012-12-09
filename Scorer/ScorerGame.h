@@ -7,10 +7,21 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "ScorerHand.h"
 
 @interface ScorerGame : NSObject
-{
-    NSMutableDictionary *hands;
-}
+
+@property (nonatomic, strong) NSMutableArray *gameHands;
+@property (nonatomic, strong) ScorerHand *currentHand;
+
+- (void)createNewHand;
+
+- (void)setBidWinner;
+- (void)setBidNumber;
+- (void)setBidSuit;
+- (void)setTricksWon;
+
+- (int)usScore;
+- (int)themScore;
 
 @end
