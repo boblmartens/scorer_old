@@ -92,11 +92,11 @@
 				C4EB18A7167068DC008614EE /* Supporting Files */,
 				C4EB18AF167068DC008614EE /* ScorerAppDelegate.h */,
 				C4EB18B0167068DC008614EE /* ScorerAppDelegate.m */,
-				C4EB18BD16706995008614EE /* LaunchViewController.h */,
 				C4EB18C216706E59008614EE /* ScorerGame.h */,
 				C4EB18C316706E59008614EE /* ScorerGame.m */,
 				C450743A1671B6F20024CC37 /* ScorerHand.h */,
 				C450743B1671B6F20024CC37 /* ScorerHand.m */,
+				C4EB18BD16706995008614EE /* LaunchViewController.h */,
 				C4EB18BE16706995008614EE /* LaunchViewController.m */,
 				C4EB18BF16706995008614EE /* LaunchViewController.xib */,
 			);

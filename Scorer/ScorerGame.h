@@ -16,12 +16,12 @@
 
 - (void)createNewHand;
 
-- (void)setBidWinner;
-- (void)setBidNumber;
-- (void)setBidSuit;
-- (void)setTricksWon;
+- (void)setBidWon:(BOOL)team;
+- (void)setBidNumber:(int)number;
+- (void)setBidSuit:(NSString *)suit;
+- (void)setTricksWon:(int)tricks;
 
-- (int)usScore;
-- (int)themScore;
+- (int)totalUsScore;
+- (int)totalThemScore;
 
 @end

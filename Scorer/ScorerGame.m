@@ -18,34 +18,62 @@
     [self setCurrentHand:[[ScorerHand alloc] init]];
 }
 
-- (void)setBidWinner
+- (void)setBidWon:(BOOL)team
 {
-    
+    [currentHand setBidWon:team];
 }
 
-- (void)setBidNumber
+- (void)setBidNumber:(int)number
 {
-    
+    [currentHand setNumberOfBid:number];
 }
 
-- (void)setBidSuit
+- (void)setBidSuit:(NSString *)suit
 {
-    
+    [currentHand setSuitOfBid:suit];
 }
 
-- (void)setTricksWon;
+- (void)setTricksWon:(int)tricks;
 {
+    [currentHand setTricksWon:tricks];
     
+    if (! [self gameHands]) {
+        [self setGameHands:[[NSMutableArray alloc] init]];
+    } else {
+        [[self gameHands] addObject:currentHand];
+    }
+    
+    [self setCurrentHand:NULL];
 }
 
-- (int)usScore
+- (int)totalUsScore
 {
-    
+    if (! [self gameHands]) {
+        return 0;
+    } else {
+        int totalScore = 0;
+        
+        for (ScorerHand *hand in gameHands) {
+            totalScore = totalScore + [hand usScore];
+        }
+        
+        return totalScore;
+    }
 }
 
-- (int)themScore
+- (int)totalThemScore
 {
-    
+    if (! [self gameHands]) {
+        return 0;
+    } else {
+        int totalScore = 0;
+        
+        for (ScorerHand *hand in gameHands) {
+            totalScore = totalScore + [hand themScore];
+        }
+        
+        return totalScore;
+    }
 }
 
 @end
