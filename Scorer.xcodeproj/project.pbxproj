@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		C450743C1671B6F20024CC37 /* ScorerHand.m in Sources */ = {isa = PBXBuildFile; fileRef = C450743B1671B6F20024CC37 /* ScorerHand.m */; };
+		C4E170B1167AF18F0023A68C /* CurrentScoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E170AF167AF18F0023A68C /* CurrentScoreViewController.m */; };
+		C4E170B2167AF18F0023A68C /* CurrentScoreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4E170B0167AF18F0023A68C /* CurrentScoreViewController.xib */; };
+		C4E170B5167AF5610023A68C /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4E170B4167AF5610023A68C /* Storyboard.storyboard */; };
 		C4EB18A1167068DC008614EE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4EB18A0167068DC008614EE /* UIKit.framework */; };
 		C4EB18A3167068DC008614EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4EB18A2167068DC008614EE /* Foundation.framework */; };
 		C4EB18A5167068DC008614EE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4EB18A4167068DC008614EE /* CoreGraphics.framework */; };
@@ -25,6 +28,10 @@
 /* Begin PBXFileReference section */
 		C450743A1671B6F20024CC37 /* ScorerHand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScorerHand.h; sourceTree = "<group>"; };
 		C450743B1671B6F20024CC37 /* ScorerHand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScorerHand.m; sourceTree = "<group>"; };
+		C4E170AE167AF18F0023A68C /* CurrentScoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurrentScoreViewController.h; sourceTree = "<group>"; };
+		C4E170AF167AF18F0023A68C /* CurrentScoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrentScoreViewController.m; sourceTree = "<group>"; };
+		C4E170B0167AF18F0023A68C /* CurrentScoreViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CurrentScoreViewController.xib; sourceTree = "<group>"; };
+		C4E170B4167AF5610023A68C /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		C4EB189C167068DC008614EE /* Scorer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scorer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4EB18A0167068DC008614EE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C4EB18A2167068DC008614EE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -98,7 +105,11 @@
 				C450743B1671B6F20024CC37 /* ScorerHand.m */,
 				C4EB18BD16706995008614EE /* LaunchViewController.h */,
 				C4EB18BE16706995008614EE /* LaunchViewController.m */,
+				C4E170B4167AF5610023A68C /* Storyboard.storyboard */,
 				C4EB18BF16706995008614EE /* LaunchViewController.xib */,
+				C4E170AE167AF18F0023A68C /* CurrentScoreViewController.h */,
+				C4E170AF167AF18F0023A68C /* CurrentScoreViewController.m */,
+				C4E170B0167AF18F0023A68C /* CurrentScoreViewController.xib */,
 			);
 			path = Scorer;
 			sourceTree = "<group>";
@@ -174,6 +185,8 @@
 				C4EB18B5167068DC008614EE /* Default@2x.png in Resources */,
 				C4EB18B7167068DC008614EE /* Default-568h@2x.png in Resources */,
 				C4EB18C116706995008614EE /* LaunchViewController.xib in Resources */,
+				C4E170B2167AF18F0023A68C /* CurrentScoreViewController.xib in Resources */,
+				C4E170B5167AF5610023A68C /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,6 +202,7 @@
 				C4EB18C016706995008614EE /* LaunchViewController.m in Sources */,
 				C4EB18C416706E59008614EE /* ScorerGame.m in Sources */,
 				C450743C1671B6F20024CC37 /* ScorerHand.m in Sources */,
+				C4E170B1167AF18F0023A68C /* CurrentScoreViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

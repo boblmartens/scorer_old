@@ -1,20 +1,18 @@
 //
-//  LaunchViewController.m
+//  CurrentScoreViewController.m
 //  Scorer
 //
-//  Created by Bob Martens on 12/5/12.
+//  Created by Bob Martens on 12/13/12.
 //  Copyright (c) 2012 Deck78. All rights reserved.
 //
 
-#import "LaunchViewController.h"
+#import "CurrentScoreViewController.h"
 
-@interface LaunchViewController ()
+@interface CurrentScoreViewController ()
 
 @end
 
-@implementation LaunchViewController
-
-@synthesize currentGame;
+@implementation CurrentScoreViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -35,14 +33,6 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
-}
-
-- (void)startNewGame:(id)sender
-{
-    NSLog(@"Test");
-    [self setCurrentGame:[[ScorerGame alloc] init]];
-    
-    
 }
 
 @end

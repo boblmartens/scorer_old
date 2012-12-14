@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ScorerGame.h"
 
 @interface LaunchViewController : UIViewController
+
+@property ScorerGame *currentGame;
+
+- (IBAction)startNewGame:(id)sender;
 
 @end
