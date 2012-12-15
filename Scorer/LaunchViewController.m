@@ -14,8 +14,6 @@
 
 @implementation LaunchViewController
 
-@synthesize currentGame;
-
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -37,12 +35,12 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (void)startNewGame:(id)sender
+- (IBAction)startNewGame:(id)sender
 {
-    NSLog(@"Test");
-    [self setCurrentGame:[[ScorerGame alloc] init]];
+    CurrentScoreViewController *newGameScore = [[CurrentScoreViewController alloc] init];
+    [newGameScore setCurrentGame:[[ScorerGame alloc] init]];
     
-    
+    [self presentViewController:newGameScore animated:YES completion:NULL];
 }
 
 @end

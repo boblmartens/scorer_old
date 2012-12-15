@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ScorerGame.h"
 
 @interface CurrentScoreViewController : UIViewController
+
+@property ScorerGame *currentGame;
 
 @end
