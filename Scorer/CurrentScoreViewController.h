@@ -8,9 +8,12 @@
 
 #import <UIKit/UIKit.h>
 #import "ScorerGame.h"
+#import "BidNumberViewController.h"
 
 @interface CurrentScoreViewController : UIViewController
 
 @property ScorerGame *currentGame;
+
+- (IBAction)createNewHand:(id)sender;
 
 @end

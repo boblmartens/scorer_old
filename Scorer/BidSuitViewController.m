@@ -1,20 +1,18 @@
 //
-//  CurrentScoreViewController.m
+//  BidSuitViewController.m
 //  Scorer
 //
-//  Created by Bob Martens on 12/13/12.
+//  Created by Bob Martens on 12/18/12.
 //  Copyright (c) 2012 Deck78. All rights reserved.
 //
 
-#import "CurrentScoreViewController.h"
+#import "BidSuitViewController.h"
 
-@interface CurrentScoreViewController ()
+@interface BidSuitViewController ()
 
 @end
 
-@implementation CurrentScoreViewController
-
-@synthesize currentGame;
+@implementation BidSuitViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -28,7 +26,6 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    NSLog(@"%@", [self currentGame]);
     // Do any additional setup after loading the view from its nib.
 }
 
@@ -36,12 +33,6 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
-}
-
-- (IBAction)createNewHand:(id)sender
-{
-    [currentGame createNewHand];
-    [self presentViewController:[[BidNumberViewController alloc] init] animated:YES completion:NULL];
 }
 
 @end
