@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "ScorerGame.h"
+#import "CurrentScoreViewController.h"
 
 @interface BidNumberViewController : UIViewController
+
+// @property CurrentScoreViewController *parentViewController;
 
 - (IBAction)sixBid:(id)sender;
 - (IBAction)sevenBid:(id)sender;

@@ -14,6 +14,7 @@
 @property (nonatomic) int numberOfBid;
 @property (nonatomic, strong) NSString *suitOfBid;
 @property (nonatomic) int tricksWon;
+@property (nonatomic) NSDictionary *bidScores;
 
 - (int)usScore;
 - (int)themScore;

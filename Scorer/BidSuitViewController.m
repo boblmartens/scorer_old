@@ -35,4 +35,34 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)spadeBid:(id)sender
+{
+    CurrentScoreViewController *csvc = (CurrentScoreViewController *)[self presentingViewController];
+    [csvc stage2:@"Spades":self];
+}
+
+- (void)clubBid:(id)sender
+{
+    CurrentScoreViewController *csvc = (CurrentScoreViewController *)[self presentingViewController];
+    [csvc stage2:@"Clubs":self];
+}
+
+- (void)diamondBid:(id)sender
+{
+    CurrentScoreViewController *csvc = (CurrentScoreViewController *)[self presentingViewController];
+    [csvc stage2:@"Diamonds":self];
+}
+
+- (void)heartBid:(id)sender
+{
+    CurrentScoreViewController *csvc = (CurrentScoreViewController *)[self presentingViewController];
+    [csvc stage2:@"Hearts":self];
+}
+
+- (void)noTrumpBid:(id)sender
+{
+    CurrentScoreViewController *csvc = (CurrentScoreViewController *)[self presentingViewController];
+    [csvc stage2:@"NoTrump":self];
+}
+
 @end

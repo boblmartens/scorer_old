@@ -35,4 +35,35 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)sixBid:(id)sender
+{
+    CurrentScoreViewController *csvc = (CurrentScoreViewController *)[self presentingViewController];
+    [csvc stage1:6:self];
+}
+
+- (void)sevenBid:(id)sender
+{
+    CurrentScoreViewController *csvc = (CurrentScoreViewController *)[self presentingViewController];
+    [csvc stage1:7:self];
+
+}
+
+- (void)eightBid:(id)sender
+{
+    CurrentScoreViewController *csvc = (CurrentScoreViewController *)[self presentingViewController];
+    [csvc stage1:8:self];
+}
+
+- (void)nineBid:(id)sender
+{
+    CurrentScoreViewController *csvc = (CurrentScoreViewController *)[self presentingViewController];
+    [csvc stage1:9:self];
+}
+
+- (void)tenBid:(id)sender
+{
+    CurrentScoreViewController *csvc = (CurrentScoreViewController *)[self presentingViewController];
+    [csvc stage1:10:self];
+}
+
 @end

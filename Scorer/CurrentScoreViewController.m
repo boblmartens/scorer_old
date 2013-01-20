@@ -41,7 +41,39 @@
 - (IBAction)createNewHand:(id)sender
 {
     [currentGame createNewHand];
-    [self presentViewController:[[BidNumberViewController alloc] init] animated:YES completion:NULL];
+    
+    [self presentViewController:[[BidNumberViewController alloc] init] animated:YES completion:nil];
+    NSLog(@"CurrentScoreViewController");
+}
+
+
+- (void)stage1:(int)bidNumber:(id)bnvc
+{
+    [currentGame setBidNumber:bidNumber];
+    [bnvc dismissViewControllerAnimated:NO completion:nil];
+    
+    [self presentViewController:[[BidSuitViewController alloc] init] animated:NO completion:nil];
+}
+
+- (void)stage2:(NSString *)bidSuit:(id)bsvc
+{
+    [currentGame setBidSuit:bidSuit];
+    [bsvc dismissViewControllerAnimated:NO completion:nil];
+    
+    [self presentViewController:[[TricksWonViewController alloc] init] animated:NO completion:nil];
+}
+
+- (void)stage3:(int)tricksWon:(id)twvc
+{
+    [currentGame setTricksWon:tricksWon];
+    [twvc dismissViewControllerAnimated:YES completion:nil];
+    
+    [self updateScore];
+}
+
+- (void)updateScore
+{
+    NSLog(@"%d", [currentGame totalThemScore]);
 }
 
 @end

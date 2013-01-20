@@ -39,6 +39,7 @@
     
     if (! [self gameHands]) {
         [self setGameHands:[[NSMutableArray alloc] init]];
+        [[self gameHands] addObject:currentHand];
     } else {
         [[self gameHands] addObject:currentHand];
     }
