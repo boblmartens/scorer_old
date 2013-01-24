@@ -29,6 +29,9 @@
 {
     [super viewDidLoad];
     NSLog(@"%@", [self currentGame]);
+    
+    [self updateScore];
+    
     // Do any additional setup after loading the view from its nib.
 }
 
@@ -42,8 +45,15 @@
 {
     [currentGame createNewHand];
     
-    [self presentViewController:[[BidNumberViewController alloc] init] animated:YES completion:nil];
-    NSLog(@"CurrentScoreViewController");
+    [self presentViewController:[[BidWinnerViewController alloc] init] animated:YES completion:nil];
+}
+
+- (void)stage0:(BOOL)bidWon:(id)bwvc
+{
+    [currentGame setBidWon:bidWon];
+    [bwvc dismissViewControllerAnimated:NO completion:nil];
+    
+    [self presentViewController:[[BidNumberViewController alloc] init] animated:NO completion:nil];
 }
 
 
@@ -73,7 +83,13 @@
 
 - (void)updateScore
 {
-    NSLog(@"%d", [currentGame totalThemScore]);
+    NSString *totalUsScore = [NSString stringWithFormat:@"%d", [currentGame totalUsScore]];
+    NSString *totalThemScore = [NSString stringWithFormat:@"%d", [currentGame totalThemScore]];
+    
+    [usScore setText:totalUsScore];
+    [themScore setText:totalThemScore];
+    
+    NSLog(@"%d", [currentGame totalUsScore]);
 }
 
 @end

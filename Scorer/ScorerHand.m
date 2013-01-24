@@ -14,7 +14,7 @@
 
 - (int)usScore
 {
-    if (bidWon) {
+    if (bidWon == YES) {
         return [self scoreBidWon];
     } else {
         return [self scoreBidLost];
@@ -23,7 +23,7 @@
 
 - (int)themScore
 {
-    if (! bidWon) {
+    if (bidWon == NO) {
         return [self scoreBidWon];
     } else {
         return [self scoreBidLost];

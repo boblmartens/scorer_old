@@ -17,6 +17,4 @@
 - (IBAction)heartBid:(id)sender;
 - (IBAction)noTrumpBid:(id)sender;
 
-- (void)suitDone;
-
 @end
