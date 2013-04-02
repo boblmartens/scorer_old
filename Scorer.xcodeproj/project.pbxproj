@@ -16,6 +16,7 @@
 		C459ACF61680404100E36935 /* TricksWonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C459ACF41680404100E36935 /* TricksWonViewController.xib */; };
 		C466A74A16B0F49A00F4D056 /* BidWinnerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C466A74816B0F49A00F4D056 /* BidWinnerViewController.m */; };
 		C466A74B16B0F49A00F4D056 /* BidWinnerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C466A74916B0F49A00F4D056 /* BidWinnerViewController.xib */; };
+		C4D69CD8170A92FC00E42E06 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4D69CD7170A92FC00E42E06 /* Storyboard.storyboard */; };
 		C4E170B1167AF18F0023A68C /* CurrentScoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E170AF167AF18F0023A68C /* CurrentScoreViewController.m */; };
 		C4E170B2167AF18F0023A68C /* CurrentScoreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4E170B0167AF18F0023A68C /* CurrentScoreViewController.xib */; };
 		C4EB18A1167068DC008614EE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4EB18A0167068DC008614EE /* UIKit.framework */; };
@@ -47,6 +48,7 @@
 		C466A74716B0F49A00F4D056 /* BidWinnerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BidWinnerViewController.h; sourceTree = "<group>"; };
 		C466A74816B0F49A00F4D056 /* BidWinnerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BidWinnerViewController.m; sourceTree = "<group>"; };
 		C466A74916B0F49A00F4D056 /* BidWinnerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BidWinnerViewController.xib; sourceTree = "<group>"; };
+		C4D69CD7170A92FC00E42E06 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Storyboard.storyboard; path = ../Storyboard.storyboard; sourceTree = "<group>"; };
 		C4E170AE167AF18F0023A68C /* CurrentScoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurrentScoreViewController.h; sourceTree = "<group>"; };
 		C4E170AF167AF18F0023A68C /* CurrentScoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrentScoreViewController.m; sourceTree = "<group>"; };
 		C4E170B0167AF18F0023A68C /* CurrentScoreViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CurrentScoreViewController.xib; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 				C4EB18A7167068DC008614EE /* Supporting Files */,
 				C4EB18AF167068DC008614EE /* ScorerAppDelegate.h */,
 				C4EB18B0167068DC008614EE /* ScorerAppDelegate.m */,
+				C4D69CD7170A92FC00E42E06 /* Storyboard.storyboard */,
 				C4EB18C216706E59008614EE /* ScorerGame.h */,
 				C4EB18C316706E59008614EE /* ScorerGame.m */,
 				C450743A1671B6F20024CC37 /* ScorerHand.h */,
@@ -219,6 +222,7 @@
 				C459ACF116803FBF00E36935 /* BidSuitViewController.xib in Resources */,
 				C459ACF61680404100E36935 /* TricksWonViewController.xib in Resources */,
 				C466A74B16B0F49A00F4D056 /* BidWinnerViewController.xib in Resources */,
+				C4D69CD8170A92FC00E42E06 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
